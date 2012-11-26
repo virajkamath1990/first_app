@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @postmicro.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @postmicro.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_postmicro_path(@postmicro) %> |
+<%= link_to 'Back', postmicros_path %>
